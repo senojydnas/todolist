@@ -1,1 +1,3 @@
 -- insert into Todo values(1, 'This is a test todo', false);
+INSERT INTO TODO VALUES (1, '2021-02-01', FALSE, 'HELLO THIS IS A TEST TODO')
+INSERT INTO TODO VALUES (2, '2021-02-01', TRUE, 'HELLO THIS IS A SECOND TEST TODO')
