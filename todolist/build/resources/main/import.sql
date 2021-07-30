@@ -1,0 +1,1 @@
+-- insert into Todo values(1, 'This is a test todo', false);

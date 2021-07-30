@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Entity
 @Data
-public class ToDoEntity {
+public class Todo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
