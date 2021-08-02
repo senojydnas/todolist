@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnChanges, OnInit} from '@angular/core';
 import {Todo} from '../../models/todo.model';
 import {TodoService} from '../../services/todo.service';
 import {Observable} from 'rxjs';
@@ -20,5 +20,6 @@ export class TodoListComponent implements OnInit {
       this.todos = todoList;
     })
   }
+
 
 }
